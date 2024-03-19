@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import MainMenu from '../components/MainMenu';
 
 const Home = () => {
   return (
