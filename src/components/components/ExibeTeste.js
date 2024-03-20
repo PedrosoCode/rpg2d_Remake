@@ -19,16 +19,16 @@ const ExibeTeste = () => {
 
   return (
     <div>
-      <h2>Itens</h2>
+      <h2>Select de Itens</h2>
       <ul>
         {itens.map(item => (
           <li key={item.id}>
-            <strong>Nome:</strong> {item.name} | 
-            <strong> Tipo:</strong> {item.type} | 
-            <strong> Custo:</strong> {item.cost} | 
-            <strong> Peso:</strong> {item.weight} | 
-            <strong> Raridade:</strong> {item.rarity} | 
-            <strong> Efeito:</strong> {item.effect} | 
+            <strong>Nome:</strong> {item.nome} | 
+            <strong> Tipo:</strong> {item.tipo} | 
+            <strong> Custo:</strong> {item.custo} | 
+            <strong> Peso:</strong> {item.peso} | 
+            <strong> Raridade:</strong> {item.raridade} | 
+            <strong> Efeito:</strong> {item.efeito} | 
             <strong> Tags:</strong> {item.tags}
           </li>
         ))}
